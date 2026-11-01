@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="20.0" version="20.0" Modules="professional" RootPath="." Language="es" Id="{05450DC1-64EA-4B1D-A9A8-0D4F94891180}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;MsiDriverPackagesComponent;UserAccountsComponent;ScheduledTasksComponent;SqlConnectionComponent;AutorunComponent;FirewallExceptionComponent;GameUxComponent;MsiDirectEditorComponent;SharePointSlnComponent;SilverlightSlnComponent;MultipleInstancesComponent;SccmComponent;ActSyncAppComponent;CPLAppletComponent;FixupComponent;MsiXDiffComponent;MsixManifestEditorComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_CURRENT_YEAR" Value="2026" ValueLocId="-"/>
+    <ROW Property="AI_EXTERNALUIUNINSTALLERNAME" MultiBuildValue="DefaultBuild:aiui"/>
+    <ROW Property="AI_PACKAGING_TOOL" Value="Advanced Installer 20.0 build e4706cc2" ValueLocId="-"/>
+    <ROW Property="AI_PRODUCTNAME_ARP" Value="WE Library"/>
+    <ROW Property="AI_UNINSTALLER" Value="msiexec.exe"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="Esta base de datos del instalador contiene la lógica y los datos necesarios para instalar [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPNOREPAIR" Value="1"/>
+    <ROW Property="ARPPRODUCTICON" Value="Annotate_Default.exe" Type="8"/>
+    <ROW Property="ARPSYSTEMCOMPONENT" Value="1"/>
+    <ROW Property="Manufacturer" Value="Hector Fortun"/>
+    <ROW Property="ProductCode" Value="1033:{A989F484-EA9A-471B-9EB9-E77BFB2A6FF0} 3082:{A989F484-EA9A-471B-9EB9-E77BFB2A6FF0} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="WE Library"/>
+    <ROW Property="ProductVersion" Value="1.0.0"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{FEB57276-8063-4AE9-B33E-504F1358160B}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="DocumentosEspaol_1_Dir" Directory_Parent="DesktopFolder" DefaultDir="DOCUME~1|Documentos (Español)"/>
+    <ROW Directory="DocumentosEspaol_Dir" Directory_Parent="APPDIR" DefaultDir="DOCUME~1|Documentos (Español)"/>
+    <ROW Directory="DocumentsEnglish_1_Dir" Directory_Parent="DesktopFolder" DefaultDir="DOCUME~2|Documents (English)"/>
+    <ROW Directory="DocumentsEnglish_Dir" Directory_Parent="APPDIR" DefaultDir="DOCUME~2|Documents (English)"/>
+    <ROW Directory="FicherosdelosEjemplosExamplesFi_Dir" Directory_Parent="APPDIR" DefaultDir="FICHER~1|Ficheros de los Ejemplos (Examples Files)"/>
+    <ROW Directory="FicherosdelosEjemplosExamples_1_Dir" Directory_Parent="DesktopFolder" DefaultDir="FICHER~1|Ficheros de los Ejemplos (Examples Files)"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="AAA.docx" ComponentId="{BEC59C95-9D39-4C63-9A6F-0FA03334C21C}" Directory_="FicherosdelosEjemplosExamplesFi_Dir" Attributes="0" KeyPath="AAA.docx" Type="0"/>
+    <ROW Component="AAA.docx_1" ComponentId="{C5F4371D-E32C-482B-97AA-E8EEA8449E84}" Directory_="FicherosdelosEjemplosExamples_1_Dir" Attributes="0" KeyPath="AAA.docx_1" Type="0"/>
+    <ROW Component="AI_CustomARPName" ComponentId="{8255BACD-8B84-4FD7-9CF7-B528F280825C}" Directory_="APPDIR" Attributes="4" KeyPath="DisplayName" Options="1"/>
+    <ROW Component="APPDIR" ComponentId="{509108A3-2C9C-4466-8E46-0DD93EB019C1}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="ClaseWE02_Mar_2024_Espaol.pdf" ComponentId="{5C0F9FA4-CDE4-4EE1-9753-94B0C15FFE80}" Directory_="APPDIR" Attributes="0" KeyPath="ClaseWE02_Mar_2024_Espaol.pdf"/>
+    <ROW Component="ClaseWE25_Feb_2024_English.pdf_1" ComponentId="{28B35C06-1968-4DF8-82CA-0004EBA10B2A}" Directory_="DocumentsEnglish_1_Dir" Attributes="0" KeyPath="ExcelTestPrerequisistes.pdf_1" Type="0"/>
+    <ROW Component="ClaseWE25_Feb_2024_Espaol.pdf_1" ComponentId="{ADB72AAE-C0E2-430E-9B10-5A541A8D2A3B}" Directory_="DocumentosEspaol_1_Dir" Attributes="0" KeyPath="RequisitosPreviosdelaPruebadeExcel.pdf_1" Type="0"/>
+    <ROW Component="ClassWE02_Mar_2024_English.pdf" ComponentId="{BBAA6E06-D2C7-4B15-8250-C6B5E77AE314}" Directory_="APPDIR" Attributes="0" KeyPath="ClassWE02_Mar_2024_English.pdf"/>
+    <ROW Component="EndUserAgreement.rtf" ComponentId="{B2E7D615-C5FD-4914-9B07-B778DE3B8F09}" Directory_="APPDIR" Attributes="0" KeyPath="EndUserAgreement.rtf" Type="0"/>
+    <ROW Component="ExcelTestPrerequisistes.pdf" ComponentId="{4B85D8B0-3723-41C0-8239-32056FA381CB}" Directory_="DocumentsEnglish_Dir" Attributes="0" KeyPath="ExcelTestPrerequisistes.pdf" Type="0"/>
+    <ROW Component="ProductInformation" ComponentId="{09C91172-F5AC-43D6-A2CC-E5975D3C982F}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="PruebaExcel.rar" ComponentId="{79611F7A-CF31-4C7E-8FEB-4AEA76CDB8A9}" Directory_="DesktopFolder" Attributes="0" KeyPath="PruebaExcel.rar_1" Type="0"/>
+    <ROW Component="PruebaExcel.rar_1" ComponentId="{44E7817D-768F-45B2-9751-923A88B6683D}" Directory_="APPDIR" Attributes="0" KeyPath="PruebaExcel.rar"/>
+    <ROW Component="PruebaWord.rar" ComponentId="{C7AF571B-7E31-4FA7-9FB5-125BAD6DF027}" Directory_="APPDIR" Attributes="0" KeyPath="PruebaWord.rar"/>
+    <ROW Component="RequisitosPreviosdelaPruebadeExcel.pdf" ComponentId="{C10642CC-DE61-4D3B-A313-119316829C91}" Directory_="DocumentosEspaol_Dir" Attributes="0" KeyPath="RequisitosPreviosdelaPruebadeExcel.pdf" Type="0"/>
+    <ROW Component="RequisitosPreviosdelaPruebadeWord.pdf" ComponentId="{157999F4-49B1-42CD-BF56-B6CA0A5BA142}" Directory_="DocumentosEspaol_Dir" Attributes="0" KeyPath="RequisitosPreviosdelaPruebadeWord.pdf"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{6A4EE5BF-596D-4B47-BF4A-368A8E67F758}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="WE.dll" ComponentId="{E3376152-713B-4CA4-B0F8-314711921609}" Directory_="APPDIR" Attributes="0" KeyPath="WE.dll"/>
+    <ROW Component="WE.dll_1" ComponentId="{52CE67D2-4594-4B07-8C4B-634B80A24C5C}" Directory_="DesktopFolder" Attributes="0" KeyPath="WE.dll_1"/>
+    <ROW Component="WordTestPrerequisistes.pdf" ComponentId="{337BCCCA-9A15-4FA5-A5C8-4F9EC6430348}" Directory_="DocumentsEnglish_Dir" Attributes="0" KeyPath="WordTestPrerequisistes.pdf"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="AAA.docx" Component_="AAA.docx" FileName="AAA~1.DOC|AAA.docx" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\Ficheros de los Ejemplos (Examples Files)\AAA.docx" SelfReg="false"/>
+    <ROW File="AAANuevo.xlsx" Component_="AAA.docx" FileName="AAANUE~1.XLS|AAANuevo.xlsx" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\Ficheros de los Ejemplos (Examples Files)\AAANuevo.xlsx" SelfReg="false"/>
+    <ROW File="AAAOutput.xlsx" Component_="AAA.docx" FileName="AAAOUT~1.XLS|AAAOutput.xlsx" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\Ficheros de los Ejemplos (Examples Files)\AAAOutput.xlsx" SelfReg="false"/>
+    <ROW File="PAISAJE.jpg" Component_="AAA.docx" FileName="PAISAJE.jpg" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\Ficheros de los Ejemplos (Examples Files)\PAISAJE.jpg" SelfReg="false"/>
+    <ROW File="EndUserAgreement.rtf" Component_="EndUserAgreement.rtf" FileName="ENDUSE~1.RTF|End User Agreement.rtf" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\End User Agreement.rtf" SelfReg="false"/>
+    <ROW File="ReadmeFirstLeamePrimero.rtf" Component_="EndUserAgreement.rtf" FileName="README~1.RTF|ReadmeFirst (LeamePrimero).rtf" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\ReadmeFirst (LeamePrimero).rtf" SelfReg="false"/>
+    <ROW File="RequisitosPreviosdelaPruebadeExcel.pdf_1" Component_="ClaseWE25_Feb_2024_Espaol.pdf_1" FileName="REQUIS~1.PDF|Requisitos Previos de la Prueba de Excel.pdf" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\Documentos (Español)\Requisitos Previos de la Prueba de Excel.pdf" SelfReg="false"/>
+    <ROW File="RequisitosPreviosdelaPruebadeWord.pdf_1" Component_="ClaseWE25_Feb_2024_Espaol.pdf_1" FileName="REQUIS~2.PDF|Requisitos Previos de la Prueba de Word.pdf" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\Documentos (Español)\Requisitos Previos de la Prueba de Word.pdf" SelfReg="false"/>
+    <ROW File="ExcelTestPrerequisistes.pdf_1" Component_="ClaseWE25_Feb_2024_English.pdf_1" FileName="EXCELT~1.PDF|Excel Test Prerequisistes.pdf" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\Documents (English)\Excel Test Prerequisistes.pdf" SelfReg="false"/>
+    <ROW File="WordTestPrerequisistes.pdf_1" Component_="ClaseWE25_Feb_2024_English.pdf_1" FileName="WORDTE~1.PDF|Word Test Prerequisistes.pdf" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\Documents (English)\Word Test Prerequisistes.pdf" SelfReg="false"/>
+    <ROW File="AAA.docx_1" Component_="AAA.docx_1" FileName="AAA~1.DOC|AAA.docx" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\Ficheros de los Ejemplos (Examples Files)\AAA.docx" SelfReg="false"/>
+    <ROW File="AAANuevo.xlsx_1" Component_="AAA.docx_1" FileName="AAANUE~1.XLS|AAANuevo.xlsx" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\Ficheros de los Ejemplos (Examples Files)\AAANuevo.xlsx" SelfReg="false"/>
+    <ROW File="AAAOutput.xlsx_1" Component_="AAA.docx_1" FileName="AAAOUT~1.XLS|AAAOutput.xlsx" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\Ficheros de los Ejemplos (Examples Files)\AAAOutput.xlsx" SelfReg="false"/>
+    <ROW File="PAISAJE.jpg_1" Component_="AAA.docx_1" FileName="PAISAJE.jpg" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\Ficheros de los Ejemplos (Examples Files)\PAISAJE.jpg" SelfReg="false"/>
+    <ROW File="ClaseWE02_Mar_2024_Espaol.pdf" Component_="ClaseWE02_Mar_2024_Espaol.pdf" FileName="CLASEW~1.PDF|Clase WE- 02_Mar_2024_Español.pdf" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\Clase WE- 02_Mar_2024_Español.pdf" SelfReg="false"/>
+    <ROW File="ClassWE02_Mar_2024_English.pdf" Component_="ClassWE02_Mar_2024_English.pdf" FileName="CLASSW~1.PDF|Class WE- 02_Mar_2024_English.pdf" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\Class WE- 02_Mar_2024_English.pdf" SelfReg="false"/>
+    <ROW File="WE.deps.json" Component_="EndUserAgreement.rtf" FileName="WEDEPS~1.JSO|WE.deps.json" Attributes="0" SourcePath="..\WE\bin\Release\net8.0-windows8.0\WE.deps.json" SelfReg="false"/>
+    <ROW File="WE.dll" Component_="WE.dll" FileName="WE.dll" Attributes="0" SourcePath="..\WE\bin\Release\net8.0-windows8.0\WE.dll" SelfReg="false"/>
+    <ROW File="WE.pdb" Component_="WE.dll" FileName="WE.pdb" Attributes="0" SourcePath="..\WE\bin\Release\net8.0-windows8.0\WE.pdb" SelfReg="false"/>
+    <ROW File="RequisitosPreviosdelaPruebadeExcel.pdf" Component_="RequisitosPreviosdelaPruebadeExcel.pdf" FileName="REQUIS~1.PDF|Requisitos Previos de la Prueba de Excel.pdf" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\Documentos (Español)\Requisitos Previos de la Prueba de Excel.pdf" SelfReg="false"/>
+    <ROW File="RequisitosPreviosdelaPruebadeWord.pdf" Component_="RequisitosPreviosdelaPruebadeWord.pdf" FileName="REQUIS~2.PDF|Requisitos Previos de la Prueba de Word.pdf" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\Documentos (Español)\Requisitos Previos de la Prueba de Word.pdf" SelfReg="false"/>
+    <ROW File="ExcelTestPrerequisistes.pdf" Component_="ExcelTestPrerequisistes.pdf" FileName="EXCELT~1.PDF|Excel Test Prerequisistes.pdf" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\Documents (English)\Excel Test Prerequisistes.pdf" SelfReg="false"/>
+    <ROW File="WordTestPrerequisistes.pdf" Component_="WordTestPrerequisistes.pdf" FileName="WORDTE~1.PDF|Word Test Prerequisistes.pdf" Attributes="0" SourcePath="..\WE (DOCUMENTOS OFICIALES)\Documents (English)\Word Test Prerequisistes.pdf" SelfReg="false"/>
+    <ROW File="PruebaExcel.rar" Component_="PruebaExcel.rar_1" FileName="PRUEBA~1.RAR|PruebaExcel.rar" Attributes="0" SourcePath="..\PruebaExcel.rar" SelfReg="false"/>
+    <ROW File="PruebaWord.rar" Component_="PruebaWord.rar" FileName="PRUEBA~2.RAR|PruebaWord.rar" Attributes="0" SourcePath="..\PruebaWord.rar" SelfReg="false"/>
+    <ROW File="PruebaExcel.rar_1" Component_="PruebaExcel.rar" FileName="PRUEBA~1.RAR|PruebaExcel.rar" Attributes="0" SourcePath="..\PruebaExcel.rar" SelfReg="false"/>
+    <ROW File="PruebaWord.rar_1" Component_="PruebaExcel.rar" FileName="PRUEBA~2.RAR|PruebaWord.rar" Attributes="0" SourcePath="..\PruebaWord.rar" SelfReg="false"/>
+    <ROW File="WE.dll_1" Component_="WE.dll_1" FileName="WE.dll" Attributes="0" SourcePath="..\WE\bin\Release\net8.0-windows8.0\WE.dll" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="..\INSTALADOR" PackageFileName="WE Library v1.0" Languages="es;en" LangOpt="2" InstallationType="4" ExtUI="true" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_es.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DigCertStoreComponent">
+    <ROW TimeStampUrl="http://timestamp.digicert.com" SignerDescription="WE - Word and Excel Library" SignOptions="0" SignTool="0" UseSha256="1" Subject="CN=TestCert_2024-3-4_17-1-17"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="InstallDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\InstallDlg.aip"/>
+    <ROW Fragment="LicenseAgreementDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\LicenseAgreementDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="ReadmeDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\ReadmeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;surface\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;surface\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;surface\fragments\VerifyRepairDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="ExternalUICleaner.dll" SourcePath="&lt;AI_CUSTACTS&gt;ExternalUICleaner.dll"/>
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="CustomizeDlg" Control="CustomizeDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1" TextLocId="-" HelpLocId="-" ExtDataLocId="-"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="AgreementText" Type="ScrollableText" X="17" Y="122" Width="312" Height="227" Attributes="3" Property="EulaRead" Text="..\WE (DOCUMENTOS OFICIALES)\End User Agreement.rtf" Order="600" TextLocId="Control.Text.LicenseAgreementDlg#AgreementText" MsiKey="LicenseAgreementDlg#AgreementText"/>
+    <ROW Dialog_="MsiRMFilesInUse" Control="Cancel" Type="ImageButton" X="163" Y="359" Width="78" Height="28" Attributes="2" Text="[NextCancelButtons]" TextStyle="[MetroButtonText]" Order="100" MsiKey="MsiRMFilesInUse#Cancel" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]" ExtDataLocId="-"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="PatchWelcomeDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1" TextLocId="-" HelpLocId="-" ExtDataLocId="-"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="ProductNameTitle" Type="Text" X="83" Y="21" Width="250" Height="80" Attributes="196611" Text="[ProductName]" TextStyle="[ProductNameForSplash]" Order="600" TextLocId="Metro.Control.Text.ProductName" MsiKey="PatchWelcomeDlg#ProductNameTitle"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="CompanyText" Type="Text" X="83" Y="16" Width="191" Height="12" Attributes="196611" Text="[Manufacturer]" TextStyle="[ManufacturerFont]" Order="700" TextLocId="Metro.Control.Text.Manufacturer" MsiKey="PatchWelcomeDlg#CompanyText"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="ProductLogo" Type="Bitmap" X="17" Y="5" Width="59" Height="63" Attributes="1" Text="[AppLogoIcon]" Order="800" MsiKey="PatchWelcomeDlg#ProductLogo"/>
+    <ROW Dialog_="ReadmeDlg" Control="ReadmeDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1" TextLocId="-" HelpLocId="-" ExtDataLocId="-"/>
+    <ROW Dialog_="ReadmeDlg" Control="Cancel" Type="ImageButton" X="163" Y="359" Width="78" Height="28" Attributes="2" Text="[NextCancelButtons]" TextStyle="[MetroButtonText]" Order="100" MsiKey="ReadmeDlg#Cancel" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]" ExtDataLocId="-"/>
+    <ROW Dialog_="ReadmeDlg" Control="ReadmeText" Type="ScrollableText" X="17" Y="139" Width="312" Height="210" Attributes="7" Text="..\WE (DOCUMENTOS OFICIALES)\ReadmeFirst (LeamePrimero).rtf" Order="300" TextLocId="Control.Text.ReadmeDlg#ReadmeText" MsiKey="ReadmeDlg#ReadmeText"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="Cancel" Type="ImageButton" X="163" Y="359" Width="78" Height="28" Attributes="2" Text="[NextCancelButtons]" TextStyle="[MetroButtonText]" Order="100" MsiKey="VerifyReadyDlg#Cancel" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]" ExtDataLocId="-"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="Back" Type="PushButton" X="5" Y="381" Width="11" Height="11" Attributes="2" Text="Control.Text.VerifyReadyDlg#Back" Help="Atrás|" Order="200" TextLocId="Control.Text.VerifyReadyDlg#Back" HelpLocId="Air.Control.Help#Back" MsiKey="VerifyReadyDlg#Back" Options="1" ExtType="PushButton" ExtData="[ButtonText_Back]" ExtDataLocId="-"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="ReadyToInstall" Type="Text" X="17" Y="105" Width="312" Height="19" Attributes="196611" Text="Listo para Instalar" TextStyle="[SubTitleStyle]" Order="400" TextLocId="Control.Text.VerifyReadyDlg#Title" MsiKey="VerifyReadyDlg#ReadyToInstall"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="Text_2" Type="Text" X="17" Y="139" Width="312" Height="100" Attributes="65539" Text="El [Wizard] está listo para iniciar la instalación [ProductName]" Order="500" TextLocId="Control.Text.VerifyReadyDlg#Description" MsiKey="VerifyReadyDlg#Text_2"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="InstallButton" Type="ImageButton" X="251" Y="359" Width="78" Height="28" Attributes="3" Text="[metrobuttonimage]" TextStyle="[MetroButtonText]" Order="600" MsiKey="VerifyReadyDlg#InstallButton" ExtType="ImageButton" ExtData="INSTALAR" ExtDataLocId="Metro.Control.ExtData.VerifyReadyDlg#InstallButton"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="ProductNameTitle" Type="Text" X="83" Y="21" Width="250" Height="80" Attributes="196611" Text="[ProductName]" TextStyle="[ProductNameForSplash]" Order="700" TextLocId="Metro.Control.Text.ProductName" MsiKey="VerifyReadyDlg#ProductNameTitle"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="CompanyText" Type="Text" X="83" Y="16" Width="191" Height="12" Attributes="196611" Text="[Manufacturer]" TextStyle="[ManufacturerFont]" Order="800" TextLocId="Metro.Control.Text.Manufacturer" MsiKey="VerifyReadyDlg#CompanyText"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="ProductLogo" Type="Bitmap" X="17" Y="5" Width="59" Height="63" Attributes="1" Text="[AppLogoIcon]" Order="900" MsiKey="VerifyReadyDlg#ProductLogo"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="AdvInst" Type="Text" X="5" Y="388" Width="74" Height="11" Attributes="196611" Text="Advanced Installer" TextStyle="[BrandingStyle]" Order="1000" MsiKey="VerifyReadyDlg#AdvInst"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control="Cancel" Type="ImageButton" X="163" Y="359" Width="78" Height="28" Attributes="2" Text="[NextCancelButtons]" TextStyle="[MetroButtonText]" Order="100" MsiKey="VerifyRemoveDlg#Cancel" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]" ExtDataLocId="-"/>
+    <ROW Dialog_="VerifyRepairDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="345" Height="400" Attributes="1" Text="[Background]" Order="100" MsiKey="VerifyRepairDlg#Bitmap"/>
+    <ROW Dialog_="VerifyRepairDlg" Control="Cancel" Type="ImageButton" X="163" Y="359" Width="78" Height="28" Attributes="2" Text="[NextCancelButtons]" TextStyle="[MetroButtonText]" Order="200" MsiKey="VerifyRepairDlg#Cancel" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]" ExtDataLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="InstallDlg" Control_="Next" Event="NewDialog" Argument="ReadmeDlg" Condition="AI_INSTALL" Ordering="301"/>
+    <ROW Dialog_="InstallDlg" Control_="YouMustAgreeCtrl" Event="NewDialog" Argument="LicenseAgreementDlg" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="301"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Back" Event="NewDialog" Argument="InstallDlg" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="1"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="NewDialog" Argument="ReadmeDlg" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="101"/>
+    <ROW Dialog_="ReadmeDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="ReadmeDlg" Control_="Back" Event="NewDialog" Argument="InstallDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="ReadmeDlg" Control_="Back" Event="NewDialog" Argument="LicenseAgreementDlg" Condition="AI_INSTALL AND AiLicenseAgreement" Ordering="2"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="699"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="199" Options="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="699"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Modify" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="99"/>
+    <ROW Dialog_="ReadmeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_INSTALL AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="2" Options="2"/>
+    <ROW Dialog_="ReadmeDlg" Control_="Next" Event="EnableRollback" Argument="False" Condition="AI_INSTALL AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="3" Options="2"/>
+    <ROW Dialog_="ReadmeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_INSTALL AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="4" Options="2"/>
+    <ROW Dialog_="ReadmeDlg" Control_="ReadmeDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_INSTALL" Ordering="0" Options="2"/>
+    <ROW Dialog_="ReadmeDlg" Control_="ReadmeDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_INSTALL" Ordering="1" Options="2"/>
+    <ROW Dialog_="ReadmeDlg" Control_="ReadmeDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_INSTALL" Ordering="2" Options="2"/>
+    <ROW Dialog_="ReadmeDlg" Control_="ReadmeDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_INSTALL" Ordering="3" Options="2"/>
+    <ROW Dialog_="ReadmeDlg" Control_="Back" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_INSTALL" Ordering="3" Options="2"/>
+    <ROW Dialog_="ReadmeDlg" Control_="Back" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_INSTALL" Ordering="4" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Modify" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_MAINT AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="102" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Modify" Event="EnableRollback" Argument="False" Condition="AI_MAINT AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="103" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Modify" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_MAINT AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="104" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="CustomizeDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_MAINT" Ordering="0" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="CustomizeDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_MAINT" Ordering="1" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="CustomizeDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_MAINT" Ordering="2" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="CustomizeDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_MAINT" Ordering="3" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_MAINT" Ordering="2" Options="2"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_MAINT" Ordering="3" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_PATCH AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="202" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="EnableRollback" Argument="False" Condition="AI_PATCH AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="203" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_PATCH AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="204" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_PATCH" Ordering="0" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_PATCH" Ordering="1" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_PATCH" Ordering="2" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_PATCH" Ordering="3" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Back" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_PATCH" Ordering="0" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Back" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_PATCH" Ordering="1" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH_ORIGINAL" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DoRemoveExternalUIStub" Type="3585" Source="ExternalUICleaner.dll" Target="DoRemoveExternalUIStub" WithoutSeq="true"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_GetArpIconPath" Type="1" Source="aicustact.dll" Target="GetArpIconPath"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH" Target="[AI_SETUPEXEPATH_ORIGINAL]"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_RemoveExternalUIStub" Type="1" Source="ExternalUICleaner.dll" Target="RemoveExternalUIStub"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_RunFinishActions" Type="1" Source="aicustact.dll" Target="RunFinishActions" WithoutSeq="true"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="AI_SetArpReadmeFile" Type="51" Source="ARPREADME" Target="[#ReadmeFirstLeamePrimero.rtf]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="AAA.docx"/>
+    <ROW Feature_="MainFeature" Component_="EndUserAgreement.rtf"/>
+    <ROW Feature_="MainFeature" Component_="PruebaExcel.rar"/>
+    <ROW Feature_="MainFeature" Component_="ClaseWE02_Mar_2024_Espaol.pdf"/>
+    <ROW Feature_="MainFeature" Component_="SHORTCUTDIR"/>
+    <ROW Feature_="MainFeature" Component_="ClassWE02_Mar_2024_English.pdf"/>
+    <ROW Feature_="MainFeature" Component_="PruebaExcel.rar_1"/>
+    <ROW Feature_="MainFeature" Component_="PruebaWord.rar"/>
+    <ROW Feature_="MainFeature" Component_="WE.dll_1"/>
+    <ROW Feature_="MainFeature" Component_="AI_CustomARPName"/>
+    <ROW Feature_="MainFeature" Component_="RequisitosPreviosdelaPruebadeWord.pdf"/>
+    <ROW Feature_="MainFeature" Component_="WordTestPrerequisistes.pdf"/>
+    <ROW Feature_="MainFeature" Component_="ClaseWE25_Feb_2024_Espaol.pdf_1"/>
+    <ROW Feature_="MainFeature" Component_="ClaseWE25_Feb_2024_English.pdf_1"/>
+    <ROW Feature_="MainFeature" Component_="AAA.docx_1"/>
+    <ROW Feature_="MainFeature" Component_="WE.dll"/>
+    <ROW Feature_="MainFeature" Component_="RequisitosPreviosdelaPruebadeExcel.pdf"/>
+    <ROW Feature_="MainFeature" Component_="ExcelTestPrerequisistes.pdf"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="Annotate_Default.exe" SourcePath="..\ICONOS\WE.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1502"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1397"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_GetArpIconPath" Sequence="1401"/>
+    <ROW Action="AI_RemoveExternalUIStub" Condition="(REMOVE=&quot;ALL&quot;) AND ((VersionNT &gt; 500) OR((VersionNT = 500) AND (ServicePackLevel &gt;= 4)))" Sequence="1501"/>
+    <ROW Action="AI_SetArpReadmeFile" Condition="NOT Installed" Sequence="1001"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="101"/>
+    <ROW Action="InstallDlg" Condition="AI_INSTALL" Sequence="1230" SeqType="3" MsiKey="WelcomeDlg"/>
+    <ROW Action="MaintenanceTypeDlg" Condition="AI_MAINT" Sequence="1250" SeqType="3" MsiKey="MaintenanceTypeDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] no se puede instalar en [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] no se puede instalar en [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] no se puede instalar en [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] no se puede instalar en [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Comments" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="Comments" Value="[ARPCOMMENTS]" Component_="AI_CustomARPName"/>
+    <ROW Registry="Contact" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="Contact" Value="[ARPCONTACT]" Component_="AI_CustomARPName"/>
+    <ROW Registry="CurrentVersion" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion" Name="\"/>
+    <ROW Registry="DisplayIcon" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="DisplayIcon" Value="[ARP_ICON_PATH]" Component_="AI_CustomARPName"/>
+    <ROW Registry="DisplayName" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="DisplayName" Value="[AI_PRODUCTNAME_ARP]" Component_="AI_CustomARPName"/>
+    <ROW Registry="DisplayVersion" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="DisplayVersion" Value="[ProductVersion]" Component_="AI_CustomARPName"/>
+    <ROW Registry="EstimatedSize" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="EstimatedSize" Value="#[AI_ARP_SIZE]" Component_="AI_CustomARPName" VirtualValue="#"/>
+    <ROW Registry="HelpLink" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="HelpLink" Value="[ARPHELPLINK]" Component_="AI_CustomARPName"/>
+    <ROW Registry="HelpTelephone" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="HelpTelephone" Value="[ARPHELPTELEPHONE]" Component_="AI_CustomARPName"/>
+    <ROW Registry="InstallLocation" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="InstallLocation" Value="[APPDIR]" Component_="AI_CustomARPName"/>
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\Hector Fortun" Name="\"/>
+    <ROW Registry="Microsoft" Root="-1" Key="Software\Microsoft" Name="\"/>
+    <ROW Registry="ModifyPath" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="ModifyPath" Value="[AI_UNINSTALLER] /i [ProductCode] AI_UNINSTALLER_CTP=1" Component_="AI_CustomARPName"/>
+    <ROW Registry="NoRepair" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="NoRepair" Value="#1" Component_="AI_CustomARPName" VirtualValue="#"/>
+    <ROW Registry="Path" Root="-1" Key="Software\Hector Fortun\WE Library" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\Hector Fortun\WE Library" Name="\"/>
+    <ROW Registry="ProductNameProductVersion" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="\"/>
+    <ROW Registry="Publisher" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="Publisher" Value="[Manufacturer]" Component_="AI_CustomARPName"/>
+    <ROW Registry="Readme" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="Readme" Value="[ARPREADME]" Component_="AI_CustomARPName"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="URLInfoAbout" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="URLInfoAbout" Value="[ARPURLINFOABOUT]" Component_="AI_CustomARPName"/>
+    <ROW Registry="URLUpdateInfo" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="URLUpdateInfo" Value="[ARPURLUPDATEINFO]" Component_="AI_CustomARPName"/>
+    <ROW Registry="Uninstall" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall" Name="\"/>
+    <ROW Registry="UninstallPath" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="UninstallPath" Value="[AI_UNINSTALLER] /x [ProductCode] AI_UNINSTALLER_CTP=1" Component_="AI_CustomARPName"/>
+    <ROW Registry="UninstallString" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="UninstallString" Value="[AI_UNINSTALLER] /x [ProductCode] AI_UNINSTALLER_CTP=1" Component_="AI_CustomARPName"/>
+    <ROW Registry="Version" Root="-1" Key="Software\Hector Fortun\WE Library" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+    <ROW Registry="VersionMajor" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="VersionMajor" Value="#1" Component_="AI_CustomARPName" VirtualValue="#"/>
+    <ROW Registry="VersionMinor" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="VersionMinor" Value="#0" Component_="AI_CustomARPName" VirtualValue="#"/>
+    <ROW Registry="Windows" Root="-1" Key="Software\Microsoft\Windows" Name="\"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="ClaseWE02_Mar_2024_Espaol" Directory_="SHORTCUTDIR" Name="CLASEW~1|Clase WE- 02_Mar_2024_Español" Component_="ClaseWE02_Mar_2024_Espaol.pdf" Target="[#ClaseWE02_Mar_2024_Espaol.pdf]" Hotkey="0" Icon_="Annotate_Default.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="ClaseWE02_Mar_2024_Espaol_1" Directory_="DesktopFolder" Name="CLASEW~1|Clase WE- 02_Mar_2024_Español" Component_="ClaseWE02_Mar_2024_Espaol.pdf" Target="[#ClaseWE02_Mar_2024_Espaol.pdf]" Hotkey="0" Icon_="Annotate_Default.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="ClassWE02_Mar_2024_English" Directory_="SHORTCUTDIR" Name="CLASSW~1|Class WE- 02_Mar_2024_English" Component_="ClassWE02_Mar_2024_English.pdf" Target="[#ClassWE02_Mar_2024_English.pdf]" Hotkey="0" Icon_="Annotate_Default.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="ClassWE02_Mar_2024_English_1" Directory_="DesktopFolder" Name="CLASSW~1|Class WE- 02_Mar_2024_English" Component_="ClassWE02_Mar_2024_English.pdf" Target="[#ClassWE02_Mar_2024_English.pdf]" Hotkey="0" Icon_="Annotate_Default.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="EndUserAgreement" Directory_="SHORTCUTDIR" Name="ENDUSE~1|End User Agreement" Component_="EndUserAgreement.rtf" Target="[#EndUserAgreement.rtf]" Hotkey="0" Icon_="Annotate_Default.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="ExcelTestPrerequisistes" Directory_="DesktopFolder" Name="EXCELT~1|Excel Test Prerequisistes" Component_="ExcelTestPrerequisistes.pdf" Target="[#ExcelTestPrerequisistes.pdf]" Hotkey="0" Icon_="Annotate_Default.exe" IconIndex="0" ShowCmd="1" WkDir="DocumentsEnglish_Dir"/>
+    <ROW Shortcut="RequisitosPreviosdelaPruebadeExcel" Directory_="DesktopFolder" Name="REQUIS~1|Requisitos Previos de la Prueba de Excel" Component_="RequisitosPreviosdelaPruebadeExcel.pdf" Target="[#RequisitosPreviosdelaPruebadeExcel.pdf]" Hotkey="0" Icon_="Annotate_Default.exe" IconIndex="0" ShowCmd="1" WkDir="DocumentosEspaol_Dir"/>
+    <ROW Shortcut="RequisitosPreviosdelaPruebadeWord" Directory_="DesktopFolder" Name="REQUIS~2|Requisitos Previos de la Prueba de Word" Component_="RequisitosPreviosdelaPruebadeWord.pdf" Target="[#RequisitosPreviosdelaPruebadeWord.pdf]" Hotkey="0" Icon_="Annotate_Default.exe" IconIndex="0" ShowCmd="1" WkDir="DocumentosEspaol_Dir"/>
+    <ROW Shortcut="WordTestPrerequisistes" Directory_="DesktopFolder" Name="WORDTE~1|Word Test Prerequisistes" Component_="WordTestPrerequisistes.pdf" Target="[#WordTestPrerequisistes.pdf]" Hotkey="0" Icon_="Annotate_Default.exe" IconIndex="0" ShowCmd="1" WkDir="DocumentsEnglish_Dir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiTextStyleComponent">
+    <ROW TextStyle="BrandingStyle" FaceName="Segoe UI" Size="8" Color="2171376" MultiBuildColor="DefaultBuild:2565927" StyleBits="0" MsiKey="BrandingStyle"/>
+    <ROW TextStyle="InputCtrlFont" FaceName="Segoe UI" Size="8" Color="16777215" MultiBuildColor="DefaultBuild:14079702" StyleBits="0" MsiKey="InputCtrlFont"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="surface"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>

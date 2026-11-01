@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.102.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LN">
+      <HintPath>..\LN.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <!-- Con las fuentes de WE al lado se usa el proyecto; si no (ejemplo del instalador), el WE.dll de la carpeta superior -->
+  <ItemGroup Condition="Exists('..\..\WE\WE.csproj')">
+    <ProjectReference Include="..\..\WE\WE.csproj" />
+  </ItemGroup>
+  <ItemGroup Condition="!Exists('..\..\WE\WE.csproj')">
+    <Reference Include="WE">
+      <HintPath>..\WE.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
